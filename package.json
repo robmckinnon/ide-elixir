@@ -1,7 +1,7 @@
 {
   "name": "ide-elixir",
   "main": "./lib/ide-elixir",
-  "version": "0.2.26",
+  "version": "0.2.27",
   "description": "Atom IDE plugin for Elixir, powered by ElixirLS",
   "keywords": [],
   "repository": "https://github.com/robmckinnon/ide-elixir",
