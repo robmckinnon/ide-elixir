@@ -4,7 +4,10 @@
   "version": "0.2.27",
   "description": "Atom IDE plugin for Elixir, powered by ElixirLS",
   "keywords": [],
-  "repository": "https://github.com/robmckinnon/ide-elixir",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robmckinnon/ide-elixir"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

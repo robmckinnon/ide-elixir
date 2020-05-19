@@ -3,4 +3,4 @@ npm-debug.log
 node_modules
 
 # Unfortunately, apm does not allow publishing untracked files, so we need to commit our build artifacts
-elixir-ls-release/debugger-*.ez
+# elixir-ls-release/debugger-*.ez
