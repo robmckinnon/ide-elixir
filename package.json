@@ -73,6 +73,21 @@
         "type": "boolean",
         "description": "Automatically fetch project dependencies when compiling",
         "default": true
+      },
+      "elixirLS.suggestSpecs": {
+        "type": "boolean",
+        "description": "Suggest @spec annotations inline using Dialyzer's inferred success typings (Requires Dialyzer)",
+        "default": true
+      },
+      "elixirLS.trace.server": {
+        "type": "string",
+        "enum": [
+          "off",
+          "messages",
+          "verbose"
+        ],
+        "default": "messages",
+        "description": "Traces the communication between Atom and the Elixir language server."
       }
     }
   },
